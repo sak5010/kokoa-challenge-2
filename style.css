@@ -17,3 +17,21 @@ h2 {
 h3 {
   font-size: 24px;
 }
+
+#playlist {
+  position: relative;
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+}
+
+#playlist i {
+  position: absolute;
+  left: 30px;
+  line-height: 49px;
+  font-size: 36px;
+}
+
+#playlist h2 {
+  margin: 0 40px;
+}
