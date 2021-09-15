@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
   font-family: "Open Sans", sans-serif;
+  padding: 60px 25px;
+  border: 4px solid darkcyan;
 }
 
 h1 {
@@ -21,13 +28,12 @@ h3 {
 #playlist {
   position: relative;
   display: flex;
-  margin-top: 80px;
   justify-content: center;
 }
 
 #playlist i {
   position: absolute;
-  left: 30px;
+  left: 0px;
   line-height: 49px;
   font-size: 36px;
 }
