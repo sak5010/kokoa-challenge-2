@@ -25,6 +25,8 @@ h3 {
   font-size: 24px;
 }
 
+/* Header */
+
 #playlist {
   position: relative;
   display: flex;
@@ -33,11 +35,46 @@ h3 {
 
 #playlist i {
   position: absolute;
-  left: 0px;
+  left: 5px;
   line-height: 49px;
   font-size: 36px;
 }
 
 #playlist h2 {
   margin: 0 40px;
+}
+
+/* playlist-playing */
+
+#playlist-playing {
+  display: flex;
+  margin: 40px 0;
+  align-items: center;
+}
+
+.playlist-playing__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: goldenrod;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-right: 15px;
+}
+
+.playlist-playing__img i {
+  font-size: 48px;
+  color: white;
+}
+
+.playlist-playing__meta h1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: 50px;
+}
+
+.playlist-playing__meta h3 {
+  margin-top: 0;
 }
